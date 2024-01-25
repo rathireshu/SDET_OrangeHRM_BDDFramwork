@@ -120,7 +120,6 @@
     <artifactId>maven-resources-plugin</artifactId>
     <version>3.3.1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 
 
 
