@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.utilities.BaseTest;
+import com.utilities.LoggerLoad;
 
 public class HomePage extends BaseTest {
 
@@ -28,6 +29,7 @@ public class HomePage extends BaseTest {
 	}
 	public boolean validateLoggedInUser()
 	{
+		LoggerLoad.info("validating logged in user");
 		return userDropdownname.isDisplayed();
 	}
 }
